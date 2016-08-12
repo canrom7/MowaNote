@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/menu_start_pass"
+      android:title="开启查看密码"
+      android:icon="@mipmap/riji"
+      android:orderInCategory="100"/>
+    <item android:id="@+id/menu_share"
+          android:title="分享"
+          android:icon="@mipmap/riji"
+          android:orderInCategory="101"/>
+    <item android:id="@+id/menu_tag"
+          android:title="标记"
+          android:icon="@mipmap/riji"
+          android:orderInCategory="102"/>
+    <item android:id="@+id/menu_delete"
+          android:title="删除"
+          android:icon="@mipmap/riji"
+          android:orderInCategory="103"/>
+    <group android:id="@+id/group_menu"
+           android:orderInCategory="104"
+           android:menuCategory="system"
+           android:checkableBehavior="single"/>
+</menu>

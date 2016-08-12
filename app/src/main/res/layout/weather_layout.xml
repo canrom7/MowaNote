@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="200dp"
+                android:background="@mipmap/weather"
+                android:padding="@dimen/biz_weather_padding" >
+    android:layout_alignParentLeft="true"
+
+    <ImageView
+        android:id="@+id/weather_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/mgpw13"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="15dp"
+        />
+    android:layout_alignParentLeft="true"
+
+    <TextView
+        android:id="@+id/week_today"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="5dip"
+        android:layout_toRightOf="@id/weather_img"
+        android:singleLine="true"
+        android:text="星期六"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/biz_plugin_weather_climate_textsize" />
+
+    <TextView
+        android:id="@+id/temperature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/week_today"
+        android:layout_marginLeft="5dip"
+        android:layout_toRightOf="@id/weather_img"
+        android:singleLine="true"
+        android:text="34°"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/biz_plugin_weather_temperature_textsize" />
+
+    <TextView
+        android:id="@+id/climate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/temperature"
+        android:layout_marginLeft="5dip"
+        android:layout_toRightOf="@id/weather_img"
+        android:singleLine="true"
+        android:text="多云"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/biz_plugin_weather_climate_textsize" />
+
+    <TextView
+        android:id="@+id/wind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/climate"
+        android:layout_marginLeft="5dip"
+        android:layout_toRightOf="@id/weather_img"
+        android:singleLine="true"
+        android:text="北风"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/biz_plugin_weather_climate_textsize" />
+
+    <TextView
+        android:id="@+id/city"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="62dp"
+        android:singleLine="true"
+        android:text="北京"
+        android:textColor="@android:color/white"
+        android:textSize="40.0sp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/temperature"
+        android:layout_toEndOf="@+id/temperature"
+        android:layout_marginStart="62dp"/>
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:text="2016/08/06"
+        android:textColor="@android:color/white"
+        android:textSize="15.0sp"
+        android:layout_below="@+id/wind"
+        android:layout_alignLeft="@+id/city"
+        android:layout_alignStart="@+id/city"/>
+
+    <TextView
+        android:id="@+id/humidity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:text="湿度:75"
+        android:textColor="@android:color/white"
+        android:textSize="15.0sp"
+        android:layout_below="@+id/time"
+        android:layout_alignLeft="@+id/time"
+        android:layout_alignStart="@+id/time"/>
+    <TextView
+        android:id="@+id/pm2_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:text="PM2.5:47"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/biz_plugin_weather_selectcity_indicator_textsize"
+        android:layout_below="@+id/pm_data"
+        android:layout_alignLeft="@+id/pm_data"
+        android:layout_alignStart="@+id/pm_data"/>
+
+    <TextView
+        android:id="@+id/pm_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:text="空气质量:良"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/biz_plugin_weather_temperature_textsize"
+        android:layout_below="@+id/humidity"
+        android:layout_alignLeft="@+id/humidity"
+        android:layout_alignStart="@+id/humidity"/>
+
+</RelativeLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="mianStyle">#00BAD2</color>
+    <color name="buttonStyle">#00a1b6</color>
+    <color name="clickStyle">#FF39EF48</color>
+    <color name="nullStyle">#ffffff</color>
+    <color name="beijin">#EFEFF4</color>
+    <color name="setTextcolor">#000000</color>
+    <color name="actionBarStyle">#00dcff</color>
+    <color name="hint_color">#D3D3D3</color>
+    <color name="titleColor">#3B3B3B</color>
+    <color name="infoColor">#BBBBBB</color>
+    <color name="separator_bar">#9B9DB1</color>
+    <color name="stetings_style">#D9D9D9</color>
+</resources>

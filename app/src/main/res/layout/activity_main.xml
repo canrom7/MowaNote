@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    android:layout_weight="1"
+    android:background="@color/beijin"
+    tools:context="com.example.canrom7.mowa.MainActivity">
+    <TextView
+        android:gravity="center"
+        android:text="Mowa"
+        android:textColor="@color/nullStyle"
+        android:textSize="20sp"
+        android:background="@color/mianStyle"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:id="@+id/textView_Title"/>
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager_mian"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        >
+    </android.support.v4.view.ViewPager>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/infoColor"
+        android:clickable="false"/>
+   <RadioGroup
+       android:id="@+id/radioGriup_Meun"
+       android:layout_marginTop="2dp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:gravity="center"
+       android:background="@color/beijin"
+       >
+       <RadioButton
+           android:id="@+id/button_List"
+           style="@style/bottom_tab_style"
+           android:drawableTop="@drawable/list_table_selector"
+           android:text="列 表"
+           />
+       <RadioButton
+           android:id="@+id/button_Edie"
+           style="@style/bottom_tab_style"
+           android:drawableTop="@drawable/edit_table_selector"
+           android:text="笔 记"
+           />
+       <RadioButton
+           android:id="@+id/button_Find"
+           style="@style/bottom_tab_style"
+           android:drawableTop="@drawable/seting_table_selector"
+           android:text="发 现"
+           />
+   </RadioGroup>
+</LinearLayout>

@@ -1,0 +1,22 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">24dp</dimen>
+    <dimen name="activity_vertical_margin">10dp</dimen>
+    <dimen name="activity_horizontal_register">40dp</dimen>
+    <dimen name="activity_horizontal_login">50dp</dimen>
+    <dimen name="list_itemPadding">5dp</dimen>
+    <dimen name="list_itemDividerHeight">2dp</dimen>
+    <dimen name="list_itemHeight">90dip</dimen>
+    <dimen name="list_itemtypeSize">26sp</dimen>
+    <dimen name="list_itemtitleSize">18sp</dimen>
+    <dimen name="list_iteminfoSize">14sp</dimen>
+    <dimen name="list_itemdateSize">12sp</dimen>
+    <dimen name="tableMenu_height">20dp</dimen>
+    <dimen name="Setsting">45dp</dimen>
+    <dimen name="Setpadding">12dp</dimen>
+    <dimen name="leftPadding">59dp</dimen>
+    <dimen name="biz_plugin_weather_climate_textsize">18.0sp</dimen>
+    <dimen name="biz_weather_padding">15dp</dimen>
+    <dimen name="biz_plugin_weather_selectcity_indicator_textsize">12.0sp</dimen>
+    <dimen name="biz_plugin_weather_temperature_textsize">20.0sp</dimen>
+</resources>

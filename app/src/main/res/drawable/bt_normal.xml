@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--未选中状态-->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/buttonStyle" />
+    <corners android:radius="4dip"/>
+    <stroke
+        android:width="0.2dp"
+        android:color="@color/beijin" />
+</shape>
