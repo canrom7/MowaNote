@@ -39,8 +39,9 @@
 
 ###主界面部分截图：
 
-####      登录\主页\列表\发现
+#### 登录\主页
 ![login](http://a3.qpic.cn/psb?/V11r2x9W13Hapo/9Lho5KICGCwOqKTJH9jPgIWLlRlMTC91r6D5EWObChg!/b/dK0AAAAAAAAA&bo=4QCQAQAAAAADB1I!&rf=viewer_4 "login")=![home](http://a3.qpic.cn/psb?/V11r2x9W13Hapo/iLGNNfZwHqvwi194XUJhl9nEgnAeLXJyrRtoY5j7E4I!/b/dLAAAAAAAAAA&bo=4ACQAQAAAAADAFQ!&rf=viewer_4 "home")
+#### 列表\发现
 ![list](http://a2.qpic.cn/psb?/V11r2x9W13Hapo/uNEAqNS4BbQejCHg3Bj1NSDcSx4f2dyKNVcM5dQYOK4!/b/dKkAAAAAAAAA&bo=4ACQAQAAAAADB1M!&rf=viewer_4 "list")=![find](http://a1.qpic.cn/psb?/V11r2x9W13Hapo/3B*rLemRGKuOq1ma9W*muMUsN.H57ytHH8AzNraN2EQ!/b/dP8AAAAAAAAA&bo=4ACQAQAAAAADB1M!&rf=viewer_4 "find")
 
 
