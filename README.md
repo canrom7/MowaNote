@@ -12,8 +12,8 @@
 ##Mowa有哪些功能？
 
 * 支持个性文字笔记，图片笔记的记录
-    *  点击主页+型菜单即可选择编辑文字笔记（迭代1.0版本实现）
-    *  同样点击主页+型菜单即可选择图片即可加入笔记（迭代2.0版本将提供实现）
+    *  点击主页+型菜单即可选择编辑文字笔记&
+    *  同样点击主页+型菜单即可选择图片即可加入笔记
 
 * 多类型笔记管理
  *  强大的隐私管理，私密笔记加锁 &
@@ -95,7 +95,6 @@
  you may not use this file except in compliance with the License. You may obtain a copy of the License at
 
    http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
+  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
 
 ### End
