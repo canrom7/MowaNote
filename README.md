@@ -51,7 +51,7 @@
 
 
 ### 技术概述
-- 界面实现：ViewPager+Fragment+FragmentAdapter
+- 界面实现：(ViewPager+Fragment+FragmentAdapter)+(Radiogroup)
 
 - 数据缓存方案：sqlite+Picasso 前者负责实体类缓存持久化，后者缓存图片多媒体文件。 sqlite使用greenDAO框架实现。
 
