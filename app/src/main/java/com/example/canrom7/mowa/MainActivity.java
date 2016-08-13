@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity implements
         ViewPager.OnPageChangeListener,
         RadioGroup.OnCheckedChangeListener
 {
-    private static final String Bmob_APPID="bb8493b19d9d36a9e39ae394bffa1e4d";
+    private static final String Bmob_APPID="Bmob_key";
     private static final String TAG="MainActivity===>";
     //上下文
     public Context mContext;
