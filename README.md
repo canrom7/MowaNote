@@ -92,7 +92,7 @@
 
 - 2016-08-12 18:54:13 星期五
 
-## 协议
+## Licensend
 
 
 - Licensed under the Apache License, Version 2.0 (the "License");
